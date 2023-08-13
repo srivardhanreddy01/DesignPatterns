@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9575eb4-9e16-4edd-a30a-b5bfa578aa76" name="Changes" comment="Design Patterns(Singleton)">
-      <change afterPath="$PROJECT_DIR$/src/BuilderDesignPattern/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderDesignPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderDesignPattern/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="a9575eb4-9e16-4edd-a30a-b5bfa578aa76" name="Changes" comment="Design Patterns(Simple Builder)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuilderDesignPattern/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuilderDesignPattern/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuilderDesignPattern/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuilderDesignPattern/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuilderDesignPattern/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuilderDesignPattern/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691951484045</updated>
-      <workItem from="1691951485186" duration="3954000" />
+      <workItem from="1691951485186" duration="4660000" />
     </task>
     <task id="LOCAL-00001" summary="Design Patterns(Singleton)">
       <created>1691953627443</created>
@@ -148,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691953627443</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Design Patterns(Simple Builder)">
+      <created>1691959818608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691959818608</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +173,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Design Patterns(Singleton)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Design Patterns(Singleton)" />
+    <MESSAGE value="Design Patterns(Simple Builder)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design Patterns(Simple Builder)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -176,11 +183,6 @@
           <url>file://$PROJECT_DIR$/src/SingeltonDesignPattern/SingleThead/Main.java</url>
           <line>2</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BuilderDesignPattern/Client.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BuilderDesignPattern/Client.java</url>
