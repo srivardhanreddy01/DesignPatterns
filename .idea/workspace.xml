@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9575eb4-9e16-4edd-a30a-b5bfa578aa76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingeltonDesignPattern/DCL/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingeltonDesignPattern/DCL/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingeltonDesignPattern/EagerLoading/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingeltonDesignPattern/EagerLoading/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingeltonDesignPattern/SingleThead/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingeltonDesignPattern/SingleThead/Main.java" afterDir="false" />
+    <list default="true" id="a9575eb4-9e16-4edd-a30a-b5bfa578aa76" name="Changes" comment="Design Patterns(Singleton)">
+      <change afterPath="$PROJECT_DIR$/src/BuilderDesignPattern/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuilderDesignPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BuilderDesignPattern/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +43,9 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -59,7 +54,20 @@
       <recent name="SingeltonDesignPattern.SingleThead.EagerLoading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingeltonDesignPattern.DCL.Main">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BuilderDesignPattern.Client" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BuilderDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Design Patterns" />
@@ -107,6 +115,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Client" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.SingeltonDesignPattern.DCL.Main" />
       <item itemvalue="Application.SingeltonDesignPattern.EagerLoading.Main" />
@@ -114,6 +123,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.SingeltonDesignPattern.DCL.Main" />
         <item itemvalue="Application.SingeltonDesignPattern.EagerLoading.Main" />
         <item itemvalue="Application.SingeltonDesignPattern.SingleThead.Main" />
@@ -129,8 +139,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691951484045</updated>
-      <workItem from="1691951485186" duration="1758000" />
+      <workItem from="1691951485186" duration="3954000" />
     </task>
+    <task id="LOCAL-00001" summary="Design Patterns(Singleton)">
+      <created>1691953627443</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691953627443</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +165,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Design Patterns(Singleton)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design Patterns(Singleton)" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -155,7 +177,26 @@
           <line>2</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BuilderDesignPattern/Client.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/BuilderDesignPattern/Client.java</url>
+          <line>4</line>
+          <properties class="BuilderDesignPattern.Client" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Design_Patterns$SingeltonDesignPattern_DCL_Main.ic" NAME="SingeltonDesignPattern.DCL.Main Coverage Results" MODIFIED="1691953554638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SingeltonDesignPattern.DCL.*</FILTER>
+    </SUITE>
   </component>
 </project>
