@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9575eb4-9e16-4edd-a30a-b5bfa578aa76" name="Changes" comment="Design Patterns(Production Builder)" />
+    <list default="true" id="a9575eb4-9e16-4edd-a30a-b5bfa578aa76" name="Changes" comment="Design Patterns(Production Builder)">
+      <change afterPath="$PROJECT_DIR$/src/PrototypeDesignPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypeDesignPattern/IntelligentStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypeDesignPattern/Registry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypeDesignPattern/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +54,7 @@
       <recent name="SingeltonDesignPattern.SingleThead.EagerLoading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.PrototypeDesignPattern.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BuilderDesignPattern.Client" />
       <module name="Design Patterns" />
@@ -62,9 +68,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="PrototypeDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrototypeDesignPattern.Client" />
       <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PrototypeDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,18 +122,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.PrototypeDesignPattern.Client" />
       <item itemvalue="Application.SingeltonDesignPattern.DCL.Main" />
       <item itemvalue="Application.SingeltonDesignPattern.EagerLoading.Main" />
       <item itemvalue="Application.SingeltonDesignPattern.SingleThead.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrototypeDesignPattern.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.SingeltonDesignPattern.DCL.Main" />
         <item itemvalue="Application.SingeltonDesignPattern.EagerLoading.Main" />
         <item itemvalue="Application.SingeltonDesignPattern.SingleThead.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691951484045</updated>
-      <workItem from="1691951485186" duration="4969000" />
+      <workItem from="1691951485186" duration="11179000" />
     </task>
     <task id="LOCAL-00001" summary="Design Patterns(Singleton)">
       <created>1691953627443</created>
@@ -156,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691960625821</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Design Patterns(Production Builder)">
+      <created>1691960811950</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691960811950</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +211,21 @@
           <line>5</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PrototypeDesignPattern/Student.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PrototypeDesignPattern/Client.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PrototypeDesignPattern/Client.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BuilderDesignPattern/Client.java</url>
           <line>4</line>
@@ -201,8 +235,22 @@
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/PrototypeDesignPattern/Client.java</url>
+          <line>17</line>
+          <properties class="PrototypeDesignPattern.Client" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="PrototypeDesignPattern.Student" memberName="averageBatchPSP" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Design_Patterns$SingeltonDesignPattern_DCL_Main.ic" NAME="SingeltonDesignPattern.DCL.Main Coverage Results" MODIFIED="1691953554638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
