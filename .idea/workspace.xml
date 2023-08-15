@@ -4,12 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9575eb4-9e16-4edd-a30a-b5bfa578aa76" name="Changes" comment="Design Patterns(Production Builder)">
-      <change afterPath="$PROJECT_DIR$/src/PrototypeDesignPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrototypeDesignPattern/IntelligentStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrototypeDesignPattern/Registry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrototypeDesignPattern/Student.java" afterDir="false" />
+    <list default="true" id="a9575eb4-9e16-4edd-a30a-b5bfa578aa76" name="Changes" comment="Design Patterns(Prototype)">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/AndriodFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/DeviceModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Flutter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/IOSFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/UIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/components/Button/AndroidButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/components/Button/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/components/Button/IOSButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/components/Dropdown/AndroidDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/components/Dropdown/Dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/components/Dropdown/IOSDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/components/Menu/AndroidMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/components/Menu/IOSMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/components/Menu/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrototypeDesignPattern/IntelligentStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrototypeDesignPattern/IntelligentStudent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -39,6 +54,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -54,13 +70,26 @@
       <recent name="SingeltonDesignPattern.SingleThead.EagerLoading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrototypeDesignPattern.Client">
+  <component name="RunManager" selected="Application.FactoryDesignPattern.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BuilderDesignPattern.Client" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BuilderDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactoryDesignPattern.Client" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FactoryDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,33 +136,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingeltonDesignPattern.SingleThead.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingeltonDesignPattern.SingleThead.Main" />
-      <module name="Design Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SingeltonDesignPattern.SingleThead.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.FactoryDesignPattern.Client" />
       <item itemvalue="Application.PrototypeDesignPattern.Client" />
       <item itemvalue="Application.SingeltonDesignPattern.DCL.Main" />
       <item itemvalue="Application.SingeltonDesignPattern.EagerLoading.Main" />
-      <item itemvalue="Application.SingeltonDesignPattern.SingleThead.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FactoryDesignPattern.Client" />
         <item itemvalue="Application.PrototypeDesignPattern.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.SingeltonDesignPattern.DCL.Main" />
         <item itemvalue="Application.SingeltonDesignPattern.EagerLoading.Main" />
-        <item itemvalue="Application.SingeltonDesignPattern.SingleThead.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691951484045</updated>
-      <workItem from="1691951485186" duration="11179000" />
+      <workItem from="1691951485186" duration="15074000" />
     </task>
     <task id="LOCAL-00001" summary="Design Patterns(Singleton)">
       <created>1691953627443</created>
@@ -175,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691960811950</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Design Patterns(Prototype)">
+      <created>1692036511597</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692036511597</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +219,8 @@
     <MESSAGE value="Design Patterns(Singleton)" />
     <MESSAGE value="Design Patterns(Simple Builder)" />
     <MESSAGE value="Design Patterns(Production Builder)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Design Patterns(Production Builder)" />
+    <MESSAGE value="Design Patterns(Prototype)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design Patterns(Prototype)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -225,6 +249,11 @@
           <url>file://$PROJECT_DIR$/src/PrototypeDesignPattern/Client.java</url>
           <line>23</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FactoryDesignPattern/Flutter.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BuilderDesignPattern/Client.java</url>

@@ -16,6 +16,7 @@ public class IntelligentStudent extends Student{
 
   public IntelligentStudent clone(){
     IntelligentStudent intelligentStudent = new IntelligentStudent(this);
+    System.out.println("Object is created");
     return intelligentStudent;
   }
 
