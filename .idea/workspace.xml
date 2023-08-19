@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9575eb4-9e16-4edd-a30a-b5bfa578aa76" name="Changes" comment="Design Patterns(Factory)">
-      <change afterPath="$PROJECT_DIR$/src/AdapterDesignPattern/ThirdPartyAPI/BankAPIAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterDesignPattern/ThirdPartyAPI/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterDesignPattern/ThirdPartyAPI/ICICIBank/ICICBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterDesignPattern/ThirdPartyAPI/ICICIBankAPIAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterDesignPattern/ThirdPartyAPI/PhonePe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterDesignPattern/ThirdPartyAPI/YesBank/YesBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterDesignPattern/ThirdPartyAPI/YesBankAPIAdapter.java" afterDir="false" />
+    <list default="true" id="a9575eb4-9e16-4edd-a30a-b5bfa578aa76" name="Changes" comment="Design Patterns(Adapter)">
+      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/BBQChicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/Farmhouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/Margherita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/Olive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/Paneer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/Pepperoni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorDesignPattern/Tomato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryDesignPattern/Flutter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Flutter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <recent name="SingeltonDesignPattern.SingleThead.EagerLoading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdapterDesignPattern.ThirdPartyAPI.Client">
+  <component name="RunManager" selected="Application.DecoratorDesignPattern.Client">
     <configuration name="AdapterDesignPattern.ThirdPartyAPI.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdapterDesignPattern.ThirdPartyAPI.Client" />
       <module name="Design Patterns" />
@@ -81,6 +83,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BuilderDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecoratorDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DecoratorDesignPattern.Client" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DecoratorDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,33 +129,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingeltonDesignPattern.DCL.Main" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingeltonDesignPattern.DCL.Main" />
-      <module name="Design Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SingeltonDesignPattern.DCL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.AdapterDesignPattern.ThirdPartyAPI.Client" />
+      <item itemvalue="Application.DecoratorDesignPattern.Client" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.FactoryDesignPattern.Client" />
       <item itemvalue="Application.PrototypeDesignPattern.Client" />
-      <item itemvalue="Application.SingeltonDesignPattern.DCL.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoratorDesignPattern.Client" />
         <item itemvalue="Application.AdapterDesignPattern.ThirdPartyAPI.Client" />
         <item itemvalue="Application.FactoryDesignPattern.Client" />
         <item itemvalue="Application.PrototypeDesignPattern.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.SingeltonDesignPattern.DCL.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691951484045</updated>
       <workItem from="1691951485186" duration="17144000" />
-      <workItem from="1692284491948" duration="1535000" />
+      <workItem from="1692284491948" duration="4182000" />
     </task>
     <task id="LOCAL-00001" summary="Design Patterns(Singleton)">
       <created>1691953627443</created>
@@ -197,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692133419643</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Design Patterns(Adapter)">
+      <created>1692286220799</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692286220799</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Design Patterns(Adapter)">
+      <created>1692286329034</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692286329034</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +236,8 @@
     <MESSAGE value="Design Patterns(Production Builder)" />
     <MESSAGE value="Design Patterns(Prototype)" />
     <MESSAGE value="Design Patterns(Factory)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Design Patterns(Factory)" />
+    <MESSAGE value="Design Patterns(Adapter)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design Patterns(Adapter)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -255,6 +272,31 @@
           <line>15</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AdapterDesignPattern/ThirdPartyAPI/ICICIBank/ICICBankAPI.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AdapterDesignPattern/ThirdPartyAPI/ICICIBankAPIAdapter.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AdapterDesignPattern/ThirdPartyAPI/PhonePe.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AdapterDesignPattern/ThirdPartyAPI/Client.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AdapterDesignPattern/ThirdPartyAPI/Client.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/BuilderDesignPattern/Client.java</url>
           <line>4</line>
@@ -272,6 +314,33 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/AdapterDesignPattern/ThirdPartyAPI/ICICIBank/ICICBankAPI.java</url>
+          <line>4</line>
+          <properties class="AdapterDesignPattern.ThirdPartyAPI.ICICIBank.ICICBankAPI" method="showBalance">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/AdapterDesignPattern/ThirdPartyAPI/ICICIBankAPIAdapter.java</url>
+          <line>8</line>
+          <properties class="AdapterDesignPattern.ThirdPartyAPI.ICICIBankAPIAdapter" method="getBalance">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/AdapterDesignPattern/ThirdPartyAPI/PhonePe.java</url>
+          <line>5</line>
+          <properties class="AdapterDesignPattern.ThirdPartyAPI.PhonePe" method="getBalance">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
